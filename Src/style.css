@@ -1,0 +1,33 @@
+body {
+    background: #415967;
+    font-family: Oswald;
+    color: #fff;
+    text-align: center;
+}
+
+.generate-button-colour-shapes,.generate-button-dashes,.generate-button-colour-pixels{
+    border-radius: 50px;
+    background: transparent;
+    width: 200px;
+    height: 50px;
+}
+
+.generate-button-pixels,.save-as{
+    border-radius: 50px;
+    background: transparent;
+    width: 600px;
+    height: 50px;
+}
+
+button:hover{
+    background: #ff96ad;
+    box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad ;
+}
+
+#myForm {
+    display: none;
+}
+
+canvas {
+    border: solid black;
+}
